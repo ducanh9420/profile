@@ -1,0 +1,81 @@
+.container {
+  min-width: 1080px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+}
+
+.section {
+  padding-top: 7rem;
+  padding-bottom: 2rem;
+}
+
+.section-title {
+  color: #fff;
+  font-size: 2.25rem;
+  margin-left: 0.875rem;
+  font-weight: 700;
+  position: relative;
+  margin-bottom: 3.75rem;
+}
+
+.grid {
+  display: grid;
+}
+
+.about-container {
+  grid-template-columns: 3fr 9fr;
+  column-gap: 1.875rem;
+}
+
+.about-data {
+  padding: 1.875rem;
+  background: #1a1919;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 10rem;
+  align-items: flex-start;
+  position: relative;
+}
+
+.about-description {
+  margin-bottom: 3rem;
+  font-weight: 200;
+}
+
+.about-pj {
+    margin-bottom: 0.25rem;
+    font-size: 1.1rem;
+}
+
+.about-school {
+    margin-top: 2rem;
+}
+
+.about-skills {
+  row-gap: 1.25rem;
+}
+
+.about-img {
+  border-radius: 10%;
+}
+
+.skills-titles {
+  margin-bottom: 1.5rem;
+}
+
+.skills-name {
+  color: #fff;
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+.skills-description {
+  color: #fff;
+  line-height: 1.2;
+  font-weight: 100;
+}
+
+.edu-info {
+    font-size: 1rem;
+    color: #fff;
+}
